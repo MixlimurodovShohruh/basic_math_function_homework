@@ -7,4 +7,8 @@ def main(a):
     Returns:
         float: the result.
     '''
-    return
+    from math import pi
+    a=pi
+    answer = round(pi,2)
+    return answer
+print(main(1))
